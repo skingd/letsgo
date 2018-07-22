@@ -1,0 +1,13 @@
+<svg>
+ <use id="spawnHealth" href="#mixed-text-left-top" height="25%" fill="fb-red">
+    <set href="#header/text" attributeName="text-buffer"  to="Health: "/>
+ 
+  </use>
+   <image y="15%" x="25%" width="50%" height="50%" href="polar_bear.png" load="sync" />
+   <use id="feedbutton" href="#push-button" y="180" height="60" width="100%"
+    fill="fb-red" font-family="System-Regular" font-size="40">
+    <set href="#text" attributeName="text-buffer" to="Feed Me!" />
+    <set href="#text" attributeName="fill" to="fb-peach" />
+    <set href="#text" attributeName="y" to="12" />
+  </use>
+</svg>
